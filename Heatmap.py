@@ -86,7 +86,7 @@ def plot_final_colormap_grid():
 
     plt.suptitle("Outlier Detection Heatmap Comparison (Grouped by Algorithm Type)", fontsize=14)
     plt.tight_layout(rect=[0, 0, 0.9, 0.96])
-    plt.savefig("final_outlier_colormap_grid_FAST.png", dpi=300)
+    plt.savefig("final_outlier_colormap_grid.png", dpi=300)
     plt.show()
 
 if __name__ == "__main__":
